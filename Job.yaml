@@ -15,3 +15,5 @@ spec:
       - name: c
         image: busybox
         command: ["sh", "-c", "exit 1"]
+      restartPolicy: Never
+
