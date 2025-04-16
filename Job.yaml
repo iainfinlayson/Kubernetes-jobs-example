@@ -13,6 +13,5 @@ spec:
     spec:
       containers:
       - name: c
-        image: devopscube/kubernetes-job-demo:latest
-        args: ["100"]
-      restartPolicy: Never
+        image: busybox
+        command: ["sh", "-c", "exit 1"]
