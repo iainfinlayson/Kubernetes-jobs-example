@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: kubernetes-job-example
+  name: kubernetes-job-example-fail
   labels:
     jobgroup: jobexample
 spec:
